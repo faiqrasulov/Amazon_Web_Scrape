@@ -1,0 +1,20 @@
+The provided code is a web scraping script designed to scrape product information from the Amazon website. It takes input parameters such as a search term and the number of pages to scrape. The code retrieves various details for each product, including the product name, price, rating, fastest delivery option, review count, stock quantity, product information, climate pledge status, product picture, product URL, delivery date, and old price.
+
+By utilizing web scraping techniques, the code automates the process of extracting valuable data from Amazon's product listings. This information can be useful for various purposes such as market analysis, price comparison, and product research.
+
+Before running the code, please ensure that you provide your login details to access Amazon. In the code snippet, you will find a section where you need to enter your login email and passcode. Modify the following lines:
+
+email_input.send_keys("mail@mail.com")
+password_input.send_keys("pass")
+
+Replace "login@yahoo.com" with your Amazon login email and "pass" with your corresponding passcode.
+
+Additionally, please specify the export directory for the resulting Excel file. In the code, there is a line where you can specify the directory path:
+
+export_path = "/path/to/export/directory/filename.xlsx"
+
+Replace "/path/to/export/directory/filename.xlsx" with the desired directory path and file name where you want to save the exported Excel file.
+
+After providing the login details and specifying the export directory, the code will wait for a specific time to allow any additional prompts that may require addressing.
+
+Once you have successfully logged in, return to the code and follow the prompts provided by the code to proceed with the scraping process.
